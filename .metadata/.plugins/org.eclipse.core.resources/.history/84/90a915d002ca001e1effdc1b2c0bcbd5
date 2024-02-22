@@ -1,0 +1,5 @@
+package com.msvc.usuario.entity;
+
+public class Usuario {
+
+}

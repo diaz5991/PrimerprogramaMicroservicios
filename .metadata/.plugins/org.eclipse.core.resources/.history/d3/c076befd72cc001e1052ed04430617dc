@@ -1,0 +1,5 @@
+package com.msvc.usuario.exception;
+
+public class ResourceNotFoundException {
+
+}

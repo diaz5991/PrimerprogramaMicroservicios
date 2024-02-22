@@ -1,0 +1,5 @@
+package com.msvc.usuario.exception.controller;
+
+public class GlobalExceptionController {
+
+}
