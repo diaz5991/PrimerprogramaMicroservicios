@@ -16,11 +16,12 @@ public class GlobalExceptionController {
 		
 		 String mensaje = resourceNotFoundException.getMessage();
 		 
-		 ApiResponse response = new ApiResponse().builder()
+		/* ApiResponse response = new ApiResponse().builder()
 				 .message(mensaje)
 				 .status(HttpStatus.NOT_FOUND)
 				 .build();
 				 
-		 return new ResponseEntity<>(response,HttpStatus.NOT_FOUND);
+		 return new ResponseEntity<>(response,HttpStatus.NOT_FOUND);*/
+		 return null;
 	}
 }
